@@ -918,4 +918,4 @@ HDl9TAVxTV1AADg5WBFcGVFZbVAtXBFtYWwZcVxlTD1YLV1IMCFtWUAcAD1RXUhlZEEwUQV8fF1=
 }
 url = 'http://127.0.0.1:8080/header_analysis'
 v = requests.post(url=url,json=data)
-print("Output start heree\n" ,v.text, "\nOutput Ends heree\n")
+print("Output start heree\n" ,v.json(), "\nOutput Ends heree\n")
