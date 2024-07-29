@@ -1,0 +1,50 @@
+{
+    "data": {
+        "1": {
+            "Delay": 0,
+            "Direction": [
+                "mta-68.117.etransmail.com (mta-68.117.etransmail.com. [175.158.68.117])",
+                "mx.google.com",
+                "ESMTPS"
+            ],
+            "Time": "07/28/2024 06:02:31 PM",
+            "Timestmp": "Sun, 28 Jul 2024 18:02:31 GMT",
+        },
+        "2": {
+            "Delay": 0,
+            "Direction": [
+                "",
+                "2002:a05:6808:3013:b0:3da:ae19:ef0",
+                "SMTP"
+            ],
+            "Time": "07/28/2024 06:02:31 PM",
+            "Timestmp": "Sun, 28 Jul 2024 18:02:31 GMT",
+        },
+        "3": {
+            "Delay": 0,
+            "Direction": [
+                "",
+                "2002:a05:7022:380b:b0:84:eb00:fc0",
+                "SMTP"
+            ],
+            "Time": "07/28/2024 06:02:31 PM",
+            "Timestmp": "Sun, 28 Jul 2024 18:02:31 GMT",
+        }
+    },
+    "delayed": false,
+    "n": {},
+    "security_headers": [
+        "Received-SPF",
+        "Authentication-Results",
+        "DKIM-Signature",
+        "ARC-Authentication-Results",
+    ],
+    "summary": {
+        "Cc": null,
+        "Date": "dkim-signature:dkim-signature;\n        bh=khmO+YZ+ZJYJTq3SbEnLLXplyXV4zkkaOuN8MQGCZ8M=;\n        fh=QAQHmC3yHc8f0cANE7Kx5XP/IafOYEBlLYPNPsbP5Kc=;\n        b=qitKL3G2UPHPHE6lQuYpBzLujFStBeCWPfPD++aWa4TtHOWk2Anc34z6q4sbjtnDFB\n         6UHeQ0qTGowq7qzdwWN9N1PjxiJSD8K/UoSLa3XKzbpmjNzKXC2hMFzfNxI2DVdxZzq9\n         X/rUoK/pQHz6/W8CGVNAnvuQnaslQa8KK3yl30ltwX042F/Vig0MbBdQ4yFkKrUVfWDt\n         hXahnVfwTfv3zNZUTAYdVDRoUmzR0NQxBGdfL68H+MiG/5QgPPFlhciohB1y190V6LDU\n         nxGjdLbofL4+sFy4/LOMDJ722kxJ3Sj2o/84H/t0zl8Yx9sO0AZGd5qIOio+QgYdeBzj\n         wRjQ==;\n        dara=google.com",
+        "From": "to\n         :date:dkim-signature:dkim-signature;\n        bh=khmO+YZ+ZJYJTq3SbEnLLXplyXV4zkkaOuN8MQGCZ8M=;\n        fh=QAQHmC3yHc8f0cANE7Kx5XP/IafOYEBlLYPNPsbP5Kc=;\n        b=qitKL3G2UPHPHE6lQuYpBzLujFStBeCWPfPD++aWa4TtHOWk2Anc34z6q4sbjtnDFB\n         6UHeQ0qTGowq7qzdwWN9N1PjxiJSD8K/UoSLa3XKzbpmjNzKXC2hMFzfNxI2DVdxZzq9\n         X/rUoK/pQHz6/W8CGVNAnvuQnaslQa8KK3yl30ltwX042F/Vig0MbBdQ4yFkKrUVfWDt\n         hXahnVfwTfv3zNZUTAYdVDRoUmzR0NQxBGdfL68H+MiG/5QgPPFlhciohB1y190V6LDU\n         nxGjdLbofL4+sFy4/LOMDJ722kxJ3Sj2o/84H/t0zl8Yx9sO0AZGd5qIOio+QgYdeBzj\n         wRjQ==;\n        dara=google.com",
+        "MessageID": "subject:from:to\n         :date:dkim-signature:dkim-signature;\n        bh=khmO+YZ+ZJYJTq3SbEnLLXplyXV4zkkaOuN8MQGCZ8M=;\n        fh=QAQHmC3yHc8f0cANE7Kx5XP/IafOYEBlLYPNPsbP5Kc=;\n        b=qitKL3G2UPHPHE6lQuYpBzLujFStBeCWPfPD++aWa4TtHOWk2Anc34z6q4sbjtnDFB\n         6UHeQ0qTGowq7qzdwWN9N1PjxiJSD8K/UoSLa3XKzbpmjNzKXC2hMFzfNxI2DVdxZzq9\n         X/rUoK/pQHz6/W8CGVNAnvuQnaslQa8KK3yl30ltwX042F/Vig0MbBdQ4yFkKrUVfWDt\n         hXahnVfwTfv3zNZUTAYdVDRoUmzR0NQxBGdfL68H+MiG/5QgPPFlhciohB1y190V6LDU\n         nxGjdLbofL4+sFy4/LOMDJ722kxJ3Sj2o/84H/t0zl8Yx9sO0AZGd5qIOio+QgYdeBzj\n         wRjQ==;\n        dara=google.com",
+        "Subject": "from:to\n         :date:dkim-signature:dkim-signature;\n        bh=khmO+YZ+ZJYJTq3SbEnLLXplyXV4zkkaOuN8MQGCZ8M=;\n        fh=QAQHmC3yHc8f0cANE7Kx5XP/IafOYEBlLYPNPsbP5Kc=;\n        b=qitKL3G2UPHPHE6lQuYpBzLujFStBeCWPfPD++aWa4TtHOWk2Anc34z6q4sbjtnDFB\n         6UHeQ0qTGowq7qzdwWN9N1PjxiJSD8K/UoSLa3XKzbpmjNzKXC2hMFzfNxI2DVdxZzq9\n         X/rUoK/pQHz6/W8CGVNAnvuQnaslQa8KK3yl30ltwX042F/Vig0MbBdQ4yFkKrUVfWDt\n         hXahnVfwTfv3zNZUTAYdVDRoUmzR0NQxBGdfL68H+MiG/5QgPPFlhciohB1y190V6LDU\n         nxGjdLbofL4+sFy4/LOMDJ722kxJ3Sj2o/84H/t0zl8Yx9sO0AZGd5qIOio+QgYdeBzj\n         wRjQ==;\n        dara=google.com",
+        "To": "patilmanav22@gmail.com",
+    }
+}

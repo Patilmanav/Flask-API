@@ -1,0 +1,45 @@
+{
+  "data": {
+    "1": {
+      "Delay": 0,
+      "Direction": [
+        "mta-68.117.etransmail.com (mta-68.117.etransmail.com. [175.158.68.117])",
+        "mx.google.com",
+        "ESMTPS"
+      ],
+      "Time": "07/28/2024 06:02:31 PM",
+      "Timestmp": "Sun, 28 Jul 2024 18:02:31 GMT"
+    },
+    "2": {
+      "Delay": 0,
+      "Direction": [
+        "",
+        "2002:a05:7022:380b:b0:84:eb00:fc0",
+        "SMTP"
+      ],
+      "Time": "07/28/2024 06:02:31 PM",
+      "Timestmp": "Sun, 28 Jul 2024 18:02:31 GMT"
+    }
+  },
+  "delayed": false,
+  "n": {
+    "ARC-Authentication-Results": "i=1; mx.google.com;\n       dkim=pass header.i=@ncb.flipkart.com header.s=nc header.b=XokK97HS;\n       dkim=pass header.i=@env.etransmail.com header.s=fnc header.b=eJx6wOkF;\n       spf=pass (google.com: domain of 17221050943167511-106048-1-gmail.com@delivery.ncb.flipkart.com designates 175.158.68.117 as permitted sender) smtp.mailfrom=17221050943167511-106048-1-gmail.com@delivery.ncb.flipkart.com;\n       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=flipkart.com",
+    "Authentication-Results": "mx.google.com;\n       dkim=pass header.i=@ncb.flipkart.com header.s=nc header.b=XokK97HS;\n       dkim=pass header.i=@env.etransmail.com header.s=fnc header.b=eJx6wOkF;\n       spf=pass (google.com: domain of 17221050943167511-106048-1-gmail.com@delivery.ncb.flipkart.com designates 175.158.68.117 as permitted sender) smtp.mailfrom=17221050943167511-106048-1-gmail.com@delivery.ncb.flipkart.com;\n       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=flipkart.com",
+    "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=ncb.flipkart.com; s=nc; h=list-unsubscribe-post:feedback-id:reply-to:list-unsubscribe:\n\t content-transfer-encoding:content-type:mime-version:message-id:subject:from:to:\n\t from:to:subject; bh=khmO+YZ+ZJYJTq3SbEnLLXplyXV4zkkaOuN8MQGCZ8M=; b=XokK97HSsxpv4MT9y9CWx3xGpv1I8A+aHjKz05ntBdXiP/ieoO8yHXhqiDr2QFqhSyGgIo17YsbU6\n\t AvNiR/OwkYnNZmQAHugvmIEQGECtZABtBchUvx6ty28ov9kxcBhwjgnUwq7hmo/H06HYAAop0SDfAq\n\t 9Lmb0JHRuanMkAa36zCm/57kBDdG2lnD1/1Zg0xpam7vYFFHBtkOhM2hMVABjYGd4PNZW5kC4g5WZI\n\t PdAzcZ1X69SYcl0BAm22w283bk6kwqSZkFXpobGx9o4ORg8BIObztYlCa1+4kptvifT3REm2xKp/1E\n\t Y9ZdsAl9M6GdZpe1vXsNYx9Jd494YxQ==",        
+    "Received-SPF": "pass (google.com: domain of 17221050943167511-106048-1-gmail.com@delivery.ncb.flipkart.com designates 175.158.68.117 as permitted sender) client-ip=175.158.68.117;"
+  },
+  "security_headers": [
+    "Received-SPF",
+    "Authentication-Results",
+    "DKIM-Signature",
+    "ARC-Authentication-Results"
+  ],
+  "summary": {
+    "Cc": null,
+    "Date": "Sun, 28 Jul 2024 23:32:30 +0530",
+    "From": "Flipkart <no-reply@ncb.flipkart.com>",
+    "MessageID": "subject:from:to\n         :date:dkim-signature:dkim-signature;\n        bh=khmO+YZ+ZJYJTq3SbEnLLXplyXV4zkkaOuN8MQGCZ8M=;\n        fh=QAQHmC3yHc8f0cANE7Kx5XP/IafOYEBlLYPNPsbP5Kc=;\n        b=qitKL3G2UPHPHE6lQuYpBzLujFStBeCWPfPD++aWa4TtHOWk2Anc34z6q4sbjtnDFB\n         6UHeQ0qTGowq7qzdwWN9N1PjxiJSD8K/UoSLa3XKzbpmjNzKXC2hMFzfNxI2DVdxZzq9\n         X/rUoK/pQHz6/W8CGVNAnvuQnaslQa8KK3yl30ltwX042F/Vig0MbBdQ4yFkKrUVfWDt\n         hXahnVfwTfv3zNZUTAYdVDRoUmzR0NQxBGdfL68H+MiG/5QgPPFlhciohB1y190V6LDU\n         nxGjdLbofL4+sFy4/LOMDJ722kxJ3Sj2o/84H/t0zl8Yx9sO0AZGd5qIOio+QgYdeBzj\n         wRjQ==;\n        dara=google.com",
+    "Subject": "Help us in serving you better!",
+    "To": "\"Patilmanav22@gmail.com\" <patilmanav22@gmail.com>"
+  }
+}
