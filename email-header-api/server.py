@@ -86,7 +86,6 @@ def index():
     if request.method == "POST":
         data = request.json
         v = data.get('header', 'No header provided')
-        print(v)
         mail_data = v.strip()
         r = {}
         n = HeaderParser().parsestr(mail_data)
@@ -200,18 +199,9 @@ def index():
         security_headers = ['Received-SPF', 'Authentication-Results',
                             'DKIM-Signature', 'ARC-Authentication-Results']
         
-        # print(json_data)
-        # print(type(r))
-        # print(type(delayed))
-        # print(type(summary))
-        # print(type(n))
-        # print(type(chart))
-        # print(type(security_headers))
         
         email_type_data = {}
-        # print(n[security_headers[1]])
         for i in security_headers:
-            print(n[i])
             email_type_data[i] = n[i]
             
         
